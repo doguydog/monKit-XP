@@ -1,0 +1,56 @@
+{
+  "id": "monKit_XP",
+  "version": "1.0.0",
+  "title": "monKit_XP",
+  "description": "Donne une quantit\u00e9 fixe d'XP aux PJ s\u00e9lectionn\u00e9s via une interface simple.",
+  "authors": [
+    {
+      "name": "Doguy"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "manifest": "https://example.com/module.json",
+  "download": "https://example.com/module.zip",
+  "url": "https://github.com/ton-repo/award-xp-fixed",
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.0.0"
+        }
+      }
+    ]
+  },
+  
+  "languages": [
+	{
+		"lang": "en",
+		"name": "English",
+		"path": "lang/en.json"
+	},
+	{
+		"lang": "fr",
+		"name": "Français",
+		"path": "lang/fr.json"
+	}
+  ],
+  
+  "esmodules": [
+    "scripts/give-xp.js"
+  ],
+  "styles": [
+	"styles/give-xp.css"
+  ],
+  "media": [
+    {
+      "type": "icon",
+      "thumbnail": "icon.webp"
+    }
+  ]
+}

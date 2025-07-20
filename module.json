@@ -13,9 +13,9 @@
     "verified": "13",
     "maximum": "13"
   },
-  "manifest": "https://example.com/module.json",
-  "download": "https://example.com/module.zip",
-  "url": "https://github.com/ton-repo/award-xp-fixed",
+  "manifest": "https://github.com/doguydog/monKit-XP/releases/download/monKit-XP/module.json",
+  "download": "https://github.com/doguydog/monKit-XP/releases/download/monKit-XP/monKit_XP.zip",
+  "url": "https://github.com/doguydog/monKit-XP",
   "relationships": {
     "systems": [
       {

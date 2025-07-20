@@ -1,0 +1,22 @@
+{
+  "monKit": {
+    "dialog": {
+      "title": "Attribuer de l'XP",
+      "xpLabel": "Montant d'XP :",
+      "targetLabel": "Personnages concernés :",
+      "confirm": "Donner l'XP",
+      "cancel": "Annuler",
+      "deselect": "Tout décocher"
+    },
+    "chat": {
+      "gains": {
+        "0": "✨ <strong>{name}</strong> reçoit <strong>{xp} XP</strong> pour ses exploits !",
+        "1": "🎉 <strong>{name}</strong> gagne <strong>{xp} XP</strong> bien mérités !",
+        "2": "🏅 <strong>{name}</strong> a prouvé sa valeur et reçoit <strong>{xp} XP</strong> !"
+      }
+    },
+    "notification": {
+      "noActors": "Aucun personnage joueur trouvé."
+    }
+  }
+}

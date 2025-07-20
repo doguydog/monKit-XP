@@ -1,0 +1,22 @@
+{
+  "monKit": {
+    "dialog": {
+      "title": "Award XP",
+      "xpLabel": "XP Amount:",
+      "targetLabel": "Targeted Characters:",
+      "confirm": "Grant XP",
+      "cancel": "Cancel",
+      "deselect": "Deselect All"
+    },
+    "chat": {
+      "gains": {
+        "0": "✨ <strong>{name}</strong> receives <strong>{xp} XP</strong> for their feats!",
+        "1": "🎉 <strong>{name}</strong> gains <strong>{xp} XP</strong> well deserved!",
+        "2": "🏅 <strong>{name}</strong> proved their worth and gets <strong>{xp} XP</strong>!"
+      }
+    },
+    "notification": {
+      "noActors": "No player characters found."
+    }
+  }
+}

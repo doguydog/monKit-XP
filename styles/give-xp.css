@@ -1,0 +1,100 @@
+/* === Bouton dans l'onglet Acteurs === */
+button.give-xp-button {
+  background: linear-gradient(to bottom, #3A7CA5, #2b6c8c);
+  color: white;
+  border: 1px solid #1f4d6a;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 6px 12px;
+  width: 100%;
+  text-align: center;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+button.give-xp-button:hover {
+  background: linear-gradient(to bottom, #FFE135, #FFD700);
+  color: black;
+  border-color: #B8860B;
+}
+
+/* === Formulaire XP === */
+.monkit-xp-form .form-group {
+  margin-bottom: 1rem;
+}
+
+/* Liste des personnages */
+.actor-list {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #aaa;
+  padding: 8px;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+/* Chaque ligne PJ en bloc vertical */
+.actor-entry {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+/* === Bouton "Tout décocher" === */
+.deselect-all {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 0.9rem;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.deselect-all:hover {
+  background: #f66;
+  color: white;
+  border-color: #d44;
+}
+
+/* === Message XP dans le chat === */
+.xp-message {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 4px;
+}
+
+.xp-message .xp-line {
+  flex: 1;
+  margin: 0;
+}
+
+/* Bouton d'annulation visible uniquement pour MJ */
+body.is-gm .undo-xp {
+  background: #5c1010;
+  color: white;
+  border: none;
+  padding: 4px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+body.is-gm .undo-xp:hover {
+  background: #8b1e1e;
+}
+
+/* Cache le bouton pour les non-MJ */
+body:not(.is-gm) .undo-xp {
+  display: none !important;
+}
+
+/* Texte barré si annulé */
+.xp-line.cancelled {
+  text-decoration: line-through !important;
+  opacity: 0.6;
+}
